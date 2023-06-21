@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#heading h2{
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 30px;
+}
+#nav{
+    background-color: black;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+#heading{
+    color: rgba(255, 255, 255, 0.595);
+}
+#links{
+    margin-left: 800px;
+}
+
+#links a{
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    color: white;
+
+}
+#links a:hover{
+    color: red;
+    transition: .4s;
+}
+
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-image: url(newport.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul{
+    align-items: center;
+}
+
+#content{
+    color: white;
+    width: 50%;
+    padding: 150px 117px;
+    margin: 0px 33px;
+}
+#content h1{
+    font-size: 50px;
+}
+span{
+    color: red;
+}
+#content h3{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#btn{
+    margin: 0px 135px;
+    padding: 14px ;
+}
+#btn button{
+    padding: 5px 35px;
+    font-weight: bold;
+    background-color: #fa004f;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: .4s;
+    
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btn button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    color: aliceblue;
+    background-color: red;
+}
+
+#social{
+   
+    margin: 0px 210px;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+#social a{
+    text-decoration: none;
+    margin: 0px 10px; 
+    font-size: 25px;
+    color: white;
+
+}
+#social a:hover{
+    color: red;
+    transition: .4s;
+}
+
+/* about wala page */
+#main{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    
+}
+#left1{
+  background-image: url(forport1.jpg);
+  width: 50%;
+  height: 70vh;
+  background-size: contain;
+  background-position: top;
+ 
+}
+
+
+#left1 h2{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 45px;
+    text-transform: capitalize;
+
+}
+#right1{
+  background-color: #191919;
+  width: 50%;
+  height: 70vh;
+ 
+}
+#right1 h2{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#right1 p{
+    color: aliceblue;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 150px;
+    font-size: 30px;
+    padding: 40px 70px;
+}
+
+#right1 button{
+
+    margin: 10px 220px;
+    padding: 10px 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: .4s;
+    background-color: #fa004f;
+    font-weight: 600;
+   
+}
+#right1 button a{
+    text-decoration: none;
+    color: black;
+}
+
+#right1 button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    color: aliceblue;
+    background-color: red;
+
+}
+
+/* skills wla page */
+#skills{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+   
+}
+
+#skillsleft{
+    background-image: url(https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fHww&w=1000&q=80);
+    width: 50%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#skillsright{
+    background-color: black;
+    width: 50%;
+    height: 70vh;
+   
+}
+#skillsright h2{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+
+}
+
+#skillsright{
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+#skillsright li{
+    margin-top: 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+.bar{
+    background: #191919;
+    display: block;
+    height: 20px;
+    border: 1px solid #191919;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, 0, .24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, 0, .22);
+
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.javascript{
+    width: 50%;
+    animation: javascript 3s;
+}
+.cpro{
+    width: 85%;
+    animation: cpro 3s;
+}
+.java{
+    width: 85%;
+    animation: java 3s;
+}
+
+ /* projects section start */
+
+ #project{
+    width: 100%;
+    height: 70vh;
+  display: flex;
+   
+ }
+ #projectleft{
+    width: 50%;
+    height: 70vh;
+   background-color: black;
+ }
+
+ #projectright{
+    width: 50%;
+    height: 70vh;
+    background-image: url(https://www.itenindustries.com/wp-content/uploads/dark-gear-bg-scaled.jpeg);
+ }
+ #projectleft{
+    color: white;
+    text-align: center;
+    
+    margin-bottom: 25px;
+
+ }
+
+ #projectleft h2{
+    margin-top: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+ }
+ #projectleft p{
+    
+    color: white;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
+ }
+ #contact{
+
+    width: 100%;
+    height: 40vh;
+    display: flex;
+   
+ }
+ #contactleft{
+    width: 50%;
+    height: 40vh;
+    background-color: #191919;
+    display: block;
+ }
+ #contactright{
+    width: 50%;
+    height: 40vh;
+    background-color: black;
+
+ }
+ #contactright a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+ }
+
+ #contactright h2{
+
+    color: white;
+    margin-top: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 230px;
+    margin-bottom: 50px;
+ }
+
+ #contactright p{
+    color: #333333;
+    font-size: 30px;
+    margin: 70px 200px;
+ }
+
+#contactleft textarea{
+
+    color: black;
+    margin: 50px 4px;
+    
+}
+ 
+#form1{
+  margin: 50px 150px;
+
+}
+
+#form1 input{
+    margin-right: 45px;
+    padding-right: 15px;
+    border: 2px solid #191919;
+
+}
+
+
+#form1 button{
+
+    padding: 5px 150px;
+    font-weight: bold;
+    background-color: #fa004f;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+#form1 button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    color: aliceblue;
+    background-color: red;
+
+}
+
+#last{
+    margin-top: 2px;
+    width: 100%;
+    height: 5vh;
+   background-color: black;
+
+    
+}
+#last p{
+    color: white;
+    padding: 0px 600px;
+
+}
+#last p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
